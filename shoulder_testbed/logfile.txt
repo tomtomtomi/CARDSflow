@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Body: link0
 COM: link0 49.92662509249606 2.065248322951866 27.227789838573937
 exporting stl of link0
@@ -6,7 +5,7 @@ Body: base
 COM: base 0.0 0.0 0.0
 exporting stl of base
 Body: link1
-COM: link1 50.79416769443402 1.927642059181895 23.436705450915156
+COM: link1 50.793936324834064 1.9275760601341854 23.439043764175455
 exporting stl of link1
 Body: sphere_link1
 COM: sphere_link1 48.14728091052802 1.6500000000000643 30.29914267490662
@@ -14,6 +13,10 @@ exporting stl of sphere_link1
 Body: sphere_link2
 COM: sphere_link2 48.14728091342974 1.6500000000000707 30.299142677808323
 exporting stl of sphere_link2
+Joint: EXPORT_joint_axis3
+	parent: link0
+	child: link1
+	pos: -0.18469788804814868	-0.06418393852540483	2.328160832238094
 Joint: EXPORT_sphere_axis0
 	parent: base
 	child: sphere_link1
@@ -26,40 +29,3 @@ Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: link0
 	pos: -1.7793441819680922	-0.4152483229517965	3.0713528363326112
-Joint: EXPORT_joint_axis3
-	parent: link0
-	child: link1
-	pos: -0.18492925764810764	-0.06424993757311448	2.3304991454983934
-=======
-Body: link0
-COM: link0 49.92662509249606 2.065248322951866 27.227789838573937
-exporting stl of link0
-Body: base
-COM: base 0.0 0.0 0.0
-exporting stl of base
-Body: link1
-COM: link1 50.79416769443402 1.927642059181895 23.436705450915156
-exporting stl of link1
-Body: sphere_link1
-COM: sphere_link1 48.14728091052802 1.6500000000000643 30.29914267490662
-exporting stl of sphere_link1
-Body: sphere_link2
-COM: sphere_link2 48.14728091342974 1.6500000000000707 30.299142677808323
-exporting stl of sphere_link2
-Joint: EXPORT_sphere_axis0
-	parent: base
-	child: sphere_link1
-	pos: -4.263256414560601e-14	1.7763568394002505e-15	-4.973799150320701e-14
-Joint: EXPORT_sphere_axis1
-	parent: sphere_link1
-	child: sphere_link2
-	pos: -2.9017286351518123e-09	-4.6629367034256575e-15	-2.9017108715834183e-09
-Joint: EXPORT_sphere_axis2
-	parent: sphere_link2
-	child: link0
-	pos: -1.7793441819680922	-0.4152483229517965	3.0713528363326112
-Joint: EXPORT_joint_axis3
-	parent: link0
-	child: link1
-	pos: -0.18492925764810764	-0.06424993757311448	2.3304991454983934
->>>>>>> 017880ed674e9c1c4618fb3b04d1db668bc22b03
